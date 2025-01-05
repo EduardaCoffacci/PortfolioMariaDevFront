@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e8a4094b.css",
+    "main.js": "/static/js/main.b348c209.js",
+    "static/media/imgmarmoraria.png": "/static/media/imgmarmoraria.736020fda9c4ddaaa9a9.png",
+    "static/media/laptop.gif": "/static/media/laptop.955aaaf0495f5acee039.gif",
+    "static/media/imgawax.png": "/static/media/imgawax.2ff66c675555c9c0392b.png",
+    "static/media/imgfood.png": "/static/media/imgfood.adba036b70ad3314fa4a.png",
+    "static/media/imgstarbucks.png": "/static/media/imgstarbucks.0dd6b7f8f1ecc0c47fed.png",
+    "static/media/imgsobre.png": "/static/media/imgsobre.378c57a9b883fc548f45.png",
+    "static/media/bikecraft.png": "/static/media/bikecraft.9bb2fda6176242ccbba4.png",
+    "static/media/MariaEduarda.pdf": "/static/media/MariaEduarda.ab73b604d452141a9623.pdf",
+    "static/media/portfolio.png": "/static/media/portfolio.81ba8e27fb4c473336b2.png",
+    "index.html": "/index.html",
+    "main.e8a4094b.css.map": "/static/css/main.e8a4094b.css.map",
+    "main.b348c209.js.map": "/static/js/main.b348c209.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8a4094b.css",
+    "static/js/main.b348c209.js"
+  ]
+}
