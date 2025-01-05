@@ -13,7 +13,6 @@ import {
   ProjectDescription,
   Title,
   LinksContainer,
-  IconLink,
   Button,
 } from "../Projetos/style.ts";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"; // Importando os ícones
