@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components";
+import { Link } from "react-router-dom";
 
 
 const bye = keyframes`
@@ -119,7 +120,7 @@ export const BannerText = styled.p`
 `;
 
 
-export const BannerButton = styled.a`
+export const BannerButton = styled(Link)`
   padding: 15px 30px;
   border-radius: 10px;
   display: inline-block;
@@ -138,6 +139,12 @@ export const BannerButton = styled.a`
   @media (max-width: 768px) {
     font-size: 1.8rem;
     padding: 12px 24px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.6rem;
+    padding: 10px 20px;
+    margin-top: 20px;
   }
 `;
 

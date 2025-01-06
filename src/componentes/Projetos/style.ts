@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   width: 100%;
-  margin-top: -40px;
+  margin-top: -60px;
   padding: 50px 20px;
   height: 100vh;
   display: flex;
@@ -13,14 +13,15 @@ export const Section = styled.section`
 export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1920px; 
   justify-content: center;
   align-content: flex-start;
   height: 90%;
   overflow-y: auto;
-  padding-right: 10px;
+  padding: 0 20px; 
+  padding-right: 10px; 
 
   ::-webkit-scrollbar {
     width: 8px;
@@ -105,5 +106,8 @@ export const Button = styled.a`
 
   svg {
     margin-right: 8px; 
+  }
+  @media (max-width:375px){
+    font-size:10px;
   }
 `;

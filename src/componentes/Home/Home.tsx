@@ -1,15 +1,15 @@
 import React from "react";
-import { 
-  Banner, 
-  BannerContent, 
-  BannerLeft, 
-  BannerRight, 
-  BannerTitle, 
-  BannerSubtitle, 
-  BannerText, 
-  BannerButton, 
-  ScrollIconWrapper, 
-  ScrollIcon 
+import {
+  Banner,
+  BannerContent,
+  BannerLeft,
+  BannerRight,
+  BannerTitle,
+  BannerSubtitle,
+  BannerText,
+  BannerButton,
+  ScrollIconWrapper,
+  ScrollIcon,
 } from "../Home/style.ts";
 import laptopGif from "../../images/laptop.gif"; // Verifique o caminho
 import mouse from "../../images/mouse.png";
@@ -23,7 +23,7 @@ const Home = () => {
           <BannerTitle>Maria Eduarda</BannerTitle>
           <BannerSubtitle>Desenvolvedora</BannerSubtitle>
           <BannerText>Programadora web apaixonada por tecnologia ❤️</BannerText>
-          <BannerButton href="/Sobre">Saiba mais</BannerButton>
+          <BannerButton to="/Sobre">Saiba mais</BannerButton>
         </BannerLeft>
         <BannerRight>
           <img src={laptopGif} alt="Laptop" />

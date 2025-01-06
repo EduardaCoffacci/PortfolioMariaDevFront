@@ -15,8 +15,7 @@ import {
   LinksContainer,
   Button,
 } from "../Projetos/style.ts";
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"; // Importando os ícones
-
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 const projects = [
   {
     id: 1,
@@ -43,7 +42,7 @@ const projects = [
     description:
       "Este é o meu projeto de portfólio, onde apresento minhas habilidades e trabalhos.Utilizei React para construir os componentes de forma dinâmica, React Router para o gerenciamento das rotas, TypeScript para garantir uma maior segurança no código e Styled-Components para a estilização. Meu objetivo foi criar um design moderno, responsivo e intuitivo, que reflita meu estilo e profissionalismo como desenvolvedora.",
     link: "",
-    repo: "",
+    repo: "https://github.com/EduardaCoffacci/PortfolioMariaDevFront",
   },
   {
     id: 4,
