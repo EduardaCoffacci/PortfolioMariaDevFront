@@ -86,6 +86,7 @@ export const IconLink = styled.a`
 export const ButtonContainer = styled.div`
   display: flex;
   gap: 10px;
+  flex-wrap: wrap; /* Para garantir que os botões se alinhem bem em telas menores */
 `;
 
 export const Button = styled.a`
@@ -107,7 +108,14 @@ export const Button = styled.a`
   svg {
     margin-right: 8px; 
   }
-  @media (max-width:375px){
-    font-size:10px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 12px;
+    padding: 8px 12px;
   }
 `;
